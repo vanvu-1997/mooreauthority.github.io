@@ -1,24 +1,22 @@
 /* styles.css */
 
-/* Style for the header section */
 header {
-    display: flex; /* Use Flexbox for layout */
-    align-items: center; /* Align items vertically in the center */
-    padding: 20px 20px; /* Add padding to the header */
-    position: relative; /* Make positioning relative for child elements */
-    margin-top: 20px; /* Add space from the top of the viewport */
+    position: fixed; /* Keeps the header fixed at the top of the page */
+    top: 10; /* Positions the header at the top */
+    left: 50%; /* Centers the header horizontally relative to the viewport */
+    transform: translateX(-50%); /* Adjusts the header's position so it's centered */
+    width: 100%; /* Ensures the header takes up the full width of the viewport */
+    text-align: center;
 }
 
-/* Style for the header <h1> with id "main-title" */
-#main-title {
-    font-family: 'Arial Black', Gadget, sans-serif; /* Font style for main title */
-    color: #ffffff; /* White color for better contrast */
-    font-size: 2.5em; /* Font size */
-    margin: 0; /* Remove default margin */
-    text-align: center; /* Center-align text within its container */
-    flex: 1; /* Allow the title to grow and take up remaining space */
+#contact {
+    position: fixed; /* Keeps the header fixed at the top of the page */
+    top: 80; /* Positions the header at the top */
+    right: 10px; /* Centers the header horizontally relative to the viewport */
+    width: 100%; /* Ensures the header takes up the full width of the viewport */
+    text-align: right; /* Aligns text to the right inside the element */
+    font-size: small;
 }
-
 
 
 
@@ -37,13 +35,12 @@ h1  {
 
 h2  {
 text-align: center;
-
 }
 
 
 /* Style for the header image */
 header img {
-    position: absolute; /* Position the image absolutely */
+    position: fixed; /* Position the image fixed */
     left: 0; /* Align the image to the left */
 }
 

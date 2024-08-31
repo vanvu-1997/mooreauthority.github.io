@@ -59,3 +59,8 @@ a {
     color: #ffffff; /* Set the color for links */
     text-decoration: none; /* Remove underline from links, optional */
 }
+
+#calendar {
+    max-width: 900px;
+    margin: 0 auto;
+}

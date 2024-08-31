@@ -1,18 +1,43 @@
 /* styles.css */
 
+/* Style for the header section */
+header {
+    display: flex; /* Use Flexbox for layout */
+    align-items: center; /* Align items vertically in the center */
+    padding: 20px 20px; /* Add padding to the header */
+    position: relative; /* Make positioning relative for child elements */
+    margin-top: 20px; /* Add space from the top of the viewport */
+}
+
 /* Style for the header <h1> with id "main-title" */
 #main-title {
     font-family: 'Arial Black', Gadget, sans-serif; /* Font style for main title */
-    color: #2c3e50; /* Example color */
+    color: #ffffff; /* White color for better contrast */
     font-size: 2.5em; /* Font size */
-    margin-top: 0; /* Adjust margin */
-    text-align: center; /* Center-align if needed */
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center-align text within its container */
+    flex: 1; /* Allow the title to grow and take up remaining space */
 }
 
 /* Style for article <h1> headings with class "article-title" */
 .article-title {
     font-family: 'Georgia', serif; /* Different font for article titles */
-    color: #34495e; /* Different color */
+    color: #ffffff; /* Different color */
     font-size: 2em; /* Adjust size */
     margin-top: 1em; /* Adjust spacing */
+}
+/* styles.css */
+
+/* Set the background color for the whole page */
+body {
+    background-color: #2b3d47; /* Dark blue color */
+    color: #ffffff; /* Optional: Set text color to white for better contrast */
+    margin: 0; /* Optional: Remove default margin */
+    font-family: Arial, sans-serif; /* Optional: Set a default font */
+}
+
+/* Style for the header image */
+header img {
+    position: absolute; /* Position the image absolutely */
+    left: 0; /* Align the image to the left */
 }

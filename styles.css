@@ -19,14 +19,8 @@ header {
     flex: 1; /* Allow the title to grow and take up remaining space */
 }
 
-/* Style for article <h1> headings with class "article-title" */
-.article-title {
-    font-family: 'Georgia', serif; /* Different font for article titles */
-    color: #ffffff; /* Different color */
-    font-size: 2em; /* Adjust size */
-    margin-top: 1em; /* Adjust spacing */
-}
-/* styles.css */
+
+
 
 /* Set the background color for the whole page */
 body {
@@ -36,8 +30,25 @@ body {
     font-family: Arial, sans-serif; /* Optional: Set a default font */
 }
 
+h1  {
+    text-align: center;
+
+}
+
+h2  {
+text-align: center;
+
+}
+
+
 /* Style for the header image */
 header img {
     position: absolute; /* Position the image absolutely */
     left: 0; /* Align the image to the left */
+}
+
+/* Style for all link states */
+a {
+    color: #ffffff; /* Set the color for links */
+    text-decoration: none; /* Remove underline from links, optional */
 }

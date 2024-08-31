@@ -1,4 +1,4 @@
-/* Basic CSS Reset */
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -8,39 +8,62 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background-color: #f4f4f4;
     color: #333;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    width: 100%;
-    text-align: center;
-}
-
-main {
+    background-color: #f8f9fa;
     padding: 20px;
-    text-align: center;
 }
 
-button {
-    padding: 10px 20px;
-    margin-top: 20px;
-    cursor: pointer;
+/* Logo Image */
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
 }
 
-footer {
-    margin-top: 20px;
-    padding: 10px 0;
-    width: 100%;
+/* Main Heading */
+h1 {
     text-align: center;
-    background-color: #333;
-    color: #fff;
+    color: #007bff;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
 }
+
+/* Subheading */
+h2 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+/* Author and Date */
+h3 {
+    text-align: center;
+    color: #6c757d;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+/* Main Content Wrapper */
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Highlight Important Paragraphs */
+.main-content p:first-of-type {
+    font-weight: bold;
+    color: #0056b3

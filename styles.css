@@ -1,7 +1,7 @@
 /* styles.css */
 
 header {
-    position: fixed; /* Keeps the header fixed at the top of the page */
+    position: absolute; /* Keeps the header fixed at the top of the page */
     top: 20; /* Positions the header at the top */
     left: 50%; /* Centers the header horizontally relative to the viewport */
     transform: translateX(-50%); /* Adjusts the header's position so it's centered */
@@ -11,7 +11,7 @@ header {
 }
 
 #contact {
-    position: fixed; /* Keeps the header fixed at the top of the page */
+    position: absolute; /* Keeps the header fixed at the top of the page */
     top: 80; /* Positions the header at the top */
     right: 10px; /* Centers the header horizontally relative to the viewport */
     width: 100%; /* Ensures the header takes up the full width of the viewport */

@@ -2,11 +2,12 @@
 
 header {
     position: fixed; /* Keeps the header fixed at the top of the page */
-    top: 10; /* Positions the header at the top */
+    top: 20; /* Positions the header at the top */
     left: 50%; /* Centers the header horizontally relative to the viewport */
     transform: translateX(-50%); /* Adjusts the header's position so it's centered */
     width: 100%; /* Ensures the header takes up the full width of the viewport */
     text-align: center;
+    font-size: large;
 }
 
 #contact {
@@ -18,6 +19,15 @@ header {
     font-size: small;
 }
 
+#header_link {
+    text-align: center;
+    padding: 10px; /* Add space inside the element */
+    margin: 20px 15px; /* Add space around the element */
+}
+
+#header_link u {
+    margin: 0 30px; /* Add space between each underlined text element */
+}
 
 
 /* Set the background color for the whole page */
